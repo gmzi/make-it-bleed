@@ -9,7 +9,7 @@ btnSubmit.addEventListener('click', function (e) {
   e.preventDefault();
 
   // capture empty inputs:
-  if (!imageInput.value.includes('http')) {
+  if (!imageInput.value.includes('.jpg')) {
     alert('please enter valid url');
   } else if (topTxtInput.value === '' && bottomTxtInput.value === '') {
     alert('please provide at least one line of text');
