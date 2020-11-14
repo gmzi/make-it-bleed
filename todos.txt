@@ -1,0 +1,5 @@
+- After alert, focus cursor in image input. 
+- Buttons share, save and add new not working.
+- Style submit button
+- Style form
+- center resulting memes?
