@@ -1,4 +1,5 @@
-- After alert, focus cursor in image input. 
+- After alert, focus cursor in image input.
+- Upload image from local library.
 - Buttons share, save and add new not working.
 - Style submit button
 - Style form
