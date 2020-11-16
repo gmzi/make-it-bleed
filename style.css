@@ -30,7 +30,8 @@ header h2 {
 form {
   color: ivory;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   position: relative;
 }
@@ -65,6 +66,8 @@ form button {
   color: black;
   font-weight: bold;
   border: 1px solid black;
+  margin: 1rem 0rem;
+  border: 1px solid red;
 }
 
 form button:hover {
@@ -89,7 +92,7 @@ form button:hover {
 
 .result {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
 
 .meme {
@@ -108,7 +111,7 @@ form button:hover {
 .img-container img {
   width: 100%;
   height: auto;
-  outline: 2px solid black;
+  outline: 5px solid black;
 }
 
 .text-top,
